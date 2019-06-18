@@ -67,6 +67,8 @@ def get_elimination_length(seq: list):
     while seq[-1] == current_colour:
         current_length += 1
         seq.pop()
+        if seq.__len__() <= 0:
+            break
     max_length = current_length
 
     while seq.__len__() > 1:
@@ -113,7 +115,7 @@ def spell_magic(seq: list):
             new_seq = magic_card(seq, colour_from=i, colour_to=j)
             elimination_length = get_elimination_length(new_seq)
 
-            if elimination_length >= max_elimination_length:
+            if elimination_length > max_elimination_length:
                 colour_from = i
                 colour_to = j
                 max_elimination_length = elimination_length
