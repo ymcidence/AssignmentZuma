@@ -1,6 +1,6 @@
 # AssignmentZuma
 
-This repo is for the assignment of playing magic card.
+This repo is for the assignment of playing magic card ([see here](AlgorithmQuestion.pdf)).
 
 Note that:
 - For the convenience of visualization, **4** legitimate colours are defined in `tools.COLOURS`. One may modify it to add more colours as long as they are supported by graphviz.
