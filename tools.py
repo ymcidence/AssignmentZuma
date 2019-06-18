@@ -91,7 +91,7 @@ def get_elimination_length(seq: list):
 
 def spell_magic(seq: list):
     """
-
+    Go! That's it!
     :param seq: a list of string indicating different colours of balls
     :return:
     """
@@ -132,6 +132,10 @@ def spell_magic(seq: list):
 
 
 if __name__ == '__main__':
-    _seq = gen_balls(14)
-    visualize(_seq, 'try')
-    print(get_elimination_length(_seq))
+    _seq = ['lightgrey', 'lightgrey', 'lightgrey', 'lightblue2', 'lightblue2', 'red', 'lightblue2', 'lightblue2', 'red',
+            'lightgrey', 'red', 'yellow', 'red', 'yellow']
+    # gen_balls(14)
+    # visualize(_seq, 'try')
+    # print(get_elimination_length(_seq))
+    magic_result = spell_magic(_seq)
+    print('Max elimination length: {}'.format(magic_result))
