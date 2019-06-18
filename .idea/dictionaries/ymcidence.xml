@@ -2,6 +2,8 @@
   <dictionary name="ymcidence">
     <words>
       <w>dtype</w>
+      <w>graphviz</w>
+      <w>zuma</w>
     </words>
   </dictionary>
 </component>
