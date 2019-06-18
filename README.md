@@ -22,6 +22,7 @@ Best cast: lightgrey ===> yellow
 Max elimination length: 7
 ```
 with the following two pictures before and after the magic card.
+
 *before_magic_card*
 ![f1](pics/before.png)
 *after_magic_card*
